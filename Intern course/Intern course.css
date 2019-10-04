@@ -5,45 +5,13 @@ body{
 }
 
 header{
-	padding: 0%;
+    padding: 0%;
 	margin-left: 7%;
 	margin-right: 7%;
 	background-color: white;  
 	position: fixed;  
-	height:12%;	
+	height:80px;	
 	width: 86%;
-}
-
-main{
-	
-	color: rgba(0, 1, 39);
-	font-size: 120%;
-	margin-left: 7%;
-	margin-right: 7%;
-	background-color: rgba(255, 255, 255, 0.719);
-	padding: 5%;
-	padding-top: 12%;
-	
-}
-
-h1{
-	text-align: center;
-	text-shadow: 4px 3px 6px rgba(0, 0, 0, 0.445);
-}
-
-img{
-	width: 200px;
-	height: 200px;
-	
-}
-
-.topic{
-	border:2px solid rgb(0, 1, 39);
-	border-radius: 20px;
-	margin:1%;
-	padding:1%;
-	margin-top:3%;
-	box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.445);
 }
 
 header #logo{
@@ -56,6 +24,57 @@ header #headtext{
 	font-family: 'Merriweather Sans', sans-serif;
 	font-size: 140%;
 }
+
+main{
+	
+	color: rgba(0, 1, 39);
+	font-size: 120%;
+	margin-left: 7%;
+	margin-right: 7%;
+	background-color: rgba(255, 255, 255, 0.719);
+	padding: 5%;
+	padding-top: 80px;	
+}
+
+a{
+	font-family: 'Barlow', sans-serif;
+	font-size:100%;
+	text-decoration:none;
+}
+
+a:hover {text-decoration: underline;}
+
+h1{
+	text-align: center;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.219);
+	font-family: 'Kanit', sans-serif;
+	font-size: 160%
+}
+
+.topic{
+	width: auto;
+	height: 200px;
+	border:2px solid rgb(0, 1, 39);
+	border-radius: 20px;
+	margin:1%;
+	padding:1%;
+	margin-top:3%;
+	box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.445);
+	text-align: center;
+	background: rgba(255, 255, 255, 0.781);
+}
+
+.topic img{
+    width: 200px;
+	height: 200px;
+	float: left;
+	position: static;
+}
+
+.clearfix{overflow: auto;}
+
+.topic span{font-size: 130%;}
+
 
 
 
