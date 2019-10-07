@@ -1,0 +1,242 @@
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+body{ 
+    margin:0;    
+    font-family: 'Lucida Sans', sans-serif
+}
+#main{
+    display: flex;
+    flex-direction: row; 
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    border-bottom:solid 1px rgb(139, 139, 139);
+    height: 60px; 
+}
+header #logo {
+    height:50px;
+}
+nav a{
+    margin: 30px;
+    color: aliceblue;
+}
+#banner{
+    color:white;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height: 100vh;
+    position: relative;
+    min-height: 600px;
+    background: url(img/back.jpg) no-repeat center;
+    background-size:cover;
+}
+#main-text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main-text h1{
+    font-size: 80px;
+    margin:5px;
+}
+#button{
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border: solid 2px white;
+    margin-bottom:70px;
+    color:white;
+    background:rgba(0, 0, 0, 0.384);
+}
+#icon-bar{
+    display: flex;  
+}
+#icon-bar a{
+    margin-right:5px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px rgb(141, 141, 141);
+    height: 25px;
+    width: 25px;
+    border-radius:15px;
+}
+a {
+    text-decoration:none;
+}
+#about-us{
+    color: black;
+    display: flex;
+    height: 80vh;
+    min-height: 600px;
+}
+#about-img{
+    position: relative;
+    width: 50%;
+    background:url(img/ab-us.png) no-repeat ;
+    background-size:cover;
+}
+
+#about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    padding:5% 5%;
+}
+#about-text h2{
+    margin-bottom:0;
+    border-bottom:solid 2px black;
+}
+#about-text button{
+    align-self:center; 
+    border:none;
+    border-radius:4px;
+    width:180px;
+    height:30px;
+    background: rgb(34, 185, 255);
+}
+#about-text button a{
+    color:rgb(255, 255, 255);
+}
+
+#our-serv{
+    height: 80vh;
+    min-height: 600px;
+}
+#h-serv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:20vh;
+    background: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+}
+#h-serv h1{
+    font-size: 50px;
+    margin:0;
+}
+#h-serv h1::after{
+    margin-left:30px;
+    content:"";
+    width:400px;
+    height:2px;
+    background-color: rgb(131, 131, 131);
+    display: inline-block;
+}
+
+#h-serv h1::before{
+    margin-right:30px;
+    content:"";
+    width:400px;
+    height:2px;
+    background-color: rgb(131, 131, 131);
+    display: inline-block;
+}
+
+#servcs{
+    color: white;
+    display: flex;
+    flex-direction:row;
+
+}
+.serv{
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 80vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:rgb(61, 61, 61);
+    transition: 0.5s;
+}
+.serv:hover{
+    background: #097e89;
+}
+.serv h2{
+    margin-top:60px;
+    
+}
+.serv button{
+    margin-top: 30px;
+    align-self:center; 
+    border:none;
+    border-radius:4px;
+    width:180px;
+    height:30px;
+    background: rgb(149,149,149);
+}
+.serv p{
+    text-align: center;
+}
+.serv button a{
+    color: white;
+}
+
+#clients{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#h-client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:20vh;
+    background: rgb(255, 255, 255);
+    color: rgb(131, 131, 131);
+}
+#h-client h1{
+    font-size: 50px;
+    margin:0;
+}
+#h-client h1::after{
+    margin-left:30px;
+    content:"";
+    width:450px;
+    height:2px;
+    background-color: rgb(131, 131, 131);
+    display: inline-block;
+}
+#h-client h1::before{
+    margin-right:30px;
+    content:"";
+    width:450px;
+    height:2px;
+    background-color: rgb(131, 131, 131);
+    display: inline-block;
+}
+
+#img-client{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:wrap
+
+}
+#img-client img{
+    margin:80px;
+}
+
+
+
+
+
+
+
+
+
